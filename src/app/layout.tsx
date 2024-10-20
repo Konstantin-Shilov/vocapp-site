@@ -2,11 +2,11 @@ import React from "react";
 import type { Metadata } from "next";
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 
+import '@mantine/core/styles.css';
+
 import { Sidebar } from "@/widgets/Sidebar";
 import { LangSelector } from "@/widgets/LangSelector";
 import { Tutor } from "@/widgets/Tutor";
-
-import '@mantine/core/styles.css';
 
 import styles from "./layout.module.css";
 import "./globals.css";
@@ -24,7 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="../shared/public/favicon.ico" sizes="any"/>
+        <title>{`${metadata.title}`}</title>
+        <link rel="icon" href="/favicon.ico" sizes="any"/>
 
         <ColorSchemeScript />
       </head>
