@@ -1,0 +1,13 @@
+.link {
+  position: relative;
+  padding: 10px 20px;
+  transition: background 0.3s;
+
+  &:hover {
+    background: #212121;
+  }
+
+  &.active {
+    background: #212121;
+  }
+}

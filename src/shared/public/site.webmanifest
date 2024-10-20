@@ -1,0 +1,19 @@
+{
+    "name": "VocApp",
+    "short_name": "VocApp",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "128x128",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/favicon.ico",
+            "sizes": "128x128",
+            "type": "image/x-icon"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

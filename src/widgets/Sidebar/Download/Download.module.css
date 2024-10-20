@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  margin-top: auto;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.qrContainer {
+  margin-top: 18px;
+}

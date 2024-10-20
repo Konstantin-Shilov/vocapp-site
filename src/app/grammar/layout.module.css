@@ -1,0 +1,27 @@
+.layout {
+  --header-height: 86px;
+
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-rows: var(--header-height) 1fr;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
+  padding: 0 20px;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content {
+  width: 100%;
+  padding: 70px;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(180deg, #252525 0%, rgba(37, 37, 37, 0) 100%);
+}
